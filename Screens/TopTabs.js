@@ -10,8 +10,8 @@ const TopTabs = ({ navigation, route }) => {
   // let name = route.params.name
   return (
     <View style={{ flex: 1 }}>
-      <View style={{paddingTop:30, backgroundColor:"#404a5c", height:100, justifyContent:"center", alignItems:"center"}}>
-        <Text style={{ color: 'white', fontSize: 20, textAlign: 'center' }}>Movies App</Text>
+      <View style={{paddingTop:30, backgroundColor:"#404a5c", height:80, justifyContent:"center", alignItems:"center"}}>
+        <Text style={{ color: 'red', fontSize: 20, textAlign: 'center'}}>Movies App</Text>
       </View>
       <Tab.Navigator initialRouteName="Home">
         <Tab.Screen name="Movies" component={Movies} />
